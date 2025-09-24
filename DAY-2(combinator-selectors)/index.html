@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Food & Drink Menu</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="parent">
+        <h1 class="main-title">Gourmet Menu</h1>
+        <!-- .parent>.main-title
+             .parent .main-title
+        -->
+        <h2>Appetizers</h2>
+        <!-- .parent>h2
+             .parent h2
+             .parent>.main-title+h2
+             .parent .main-title+h2
+             .parent>.main-title~h2
+             .parent .main-title~h2
+             .main-title+h2
+             .main-title~h2
+        -->
+        <h1 class="special">Truffle Risotto</h1>
+        <!-- .parent>.special
+             .parent .special
+             .parent>.main-title+.specail
+             .parent .main-title+.special
+             .parent>.main-title~.special
+             .parent .main-title~.special
+             .parent>.main-title+h1
+             .parent .main-title+h1
+             .parent>.main-title~h1
+             .parent .main-title~h1
+             .main-title+.special
+             .main-title~.special
+             .main-title+h1
+             .main-title~h1
+        -->
+        <h2>Seafood Salad</h2>
+        <!-- .parent>h2
+             .parent h2
+             .parent>.main-title~h2
+             .parent .main-title~h2
+             .main-title~h2
+             .special+h2
+             .special~h2
+        -->
+        <h5>Chef's Recommendation</h5>
+        <!-- .parent>h5
+             .parent h5
+             .parent>.main-title~h5
+             .parent .main-title~h5
+             .main-title~h5
+             h2+h5
+             h2~h5
+        -->
+        <div class="child">
+            <p>Classic Bruschetta</p>
+            <h5>Fresh Oysters</h5>
+            <h2>Clam Chowder</h2>
+            <ul>
+                <li>Garlic Bread</li>
+                <li>Extra Cheese</li>
+            </ul>
+        </div>
+
+        <p>Seasonal Fruit Tart</p>
+        <h2>Dessert Specials</h2>
+
+        <h3>Chocolate Lava Cake</h3>
+        <p class="highlight">Warm, gooey center with vanilla ice cream.</p>
+
+        <h3>Crème Brûlée</h3>
+        <p>Classic French dessert with caramelized sugar crust.</p>
+
+        <div class="extra">
+            <h2>Beverages</h2>
+            <h4>Coffee</h4>
+            <p>Espresso, Latte, Cappuccino</p>
+            <h4>Tea</h4>
+            <p>Green, Earl Grey, Chamomile</p>
+            <h4>Soft Drinks</h4>
+            <p>Cola, Lemonade, Ginger Ale</p>
+        </div>

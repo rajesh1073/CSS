@@ -1,0 +1,39 @@
+.parent{
+      background-color:white;
+    }
+    .parent > h1.main-title {
+      color: darkblue;
+    }
+   .parent > h2{
+      color:blue;
+    }
+    .parent .main-title~h2 {
+      color: green;
+    }
+    .special ~ h5 {
+      color: orange;
+    }
+    .child h2 {
+      color: purple;
+    }
+    .child > p {
+      color: brown;
+    }
+    .child ~ h2 {
+      color: crimson;
+    }
+    .child ~ h3 {
+      color: teal;
+    }
+    h3 + p {
+      color: chocolate;
+    }
+    .extra > h2 {
+      color: maroon;
+    }
+    .extra h4 {
+      color: navy;
+    }
+    .extra h4 + p {
+      color: darkgreen;
+    }
