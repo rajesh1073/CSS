@@ -1,0 +1,88 @@
+.nav {
+    display: flex;
+    background-color: white;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    justify-content: end;
+    font-size: 18px;
+    z-index: 10;
+}
+.nav  p {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.left {
+    display: flex;
+    margin-right: 1060px;
+    
+    
+}
+.nav > .right {
+    display: flex;
+    column-gap: 40px;
+    margin-right: 40px;
+}
+
+.burger {
+    background-size: 800px;
+    position: relative;
+}
+.burger > p {
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    font-size: 40px;
+    opacity: 90%;
+    letter-spacing: 5px;
+    color: gray;
+}
+
+.burger > img {
+    width: 100%;
+    background-size: cover;
+    /* margin-right: 5px; */
+}
+.class1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 80px;
+    padding: 80px;
+}
+
+ .text1 {
+    width: 550px;
+    font-size: 20px;
+ }
+ .img1 > img {
+    width: 501px;
+    height: 627px;
+ }
+
+ .form > input {
+    width: 100%;
+    height: 30px;
+ }
+button {
+    background-color: lightgray;
+    height: 40px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: lightgray;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+}
+.footer > p {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
