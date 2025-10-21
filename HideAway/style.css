@@ -1,0 +1,214 @@
+.nav {
+    display: flex;
+    background-image: url("https://4kwallpapers.com/images/wallpapers/endless-road-mountain-range-landscape-death-valley-blue-sky-3840x1080-3909.jpg");
+    height: 600px;
+    margin: 50px;
+    justify-content: space-around;
+    column-gap: 20px;
+    cursor: pointer;
+}
+.sub-nav1 {
+    display: flex;
+    margin-top: 50px;
+    column-gap: 20px;
+}
+.sub-nav1 > p, div > p {
+    padding-top: 5px;
+}
+.sub-nav2 {
+    display: flex;
+    margin-top: 50px;
+    column-gap: 20px;
+}
+
+.sub-nav2 >div > p {
+    border: 2px solid black;
+    width: 110px;
+    height: 35px;
+    padding: 2px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.sub-nav2 > div > p:hover {
+    background-color: black;
+    color: white;
+
+}
+.hide {
+    display: none;
+    position: absolute;
+    width: 150px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.child-nav {
+    position: relative;
+}
+.child-nav:hover  .hide {
+    display: block;
+}
+.class1 {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+.class1 > div > .class1a {
+    border: 2px solid white;
+    display: none;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    z-index: 20;
+    margin-top: -300px;
+    margin-left: 50px;
+}
+.class1 > div:hover .class1a{
+    display: block;
+}
+.class1 > div > img {
+    height: 350px;
+    width: 350px;
+}
+.class1 > div > p {
+    position: absolute;
+    top: 55%;
+    padding-left: 140px;
+    color: white;
+    font-size: 20px;
+}
+.class1 > div {
+    margin: 20px;
+    margin-top: 100px;
+}
+.class1, .class2, .class3 {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.class2 {
+    display: flex;
+}
+.class2 > p{
+    text-align: left;
+
+}
+.class2 > h2 {
+    width: 100%;
+    margin-left: 20px;
+}
+.class3 {
+    margin: 30px;
+    margin-bottom: 150px;
+}
+.class3 > p {
+    margin-left: 585px;
+    background-color: white;
+    height: 50px;
+    width: 130px;
+    border: black 2px solid;
+    padding: 14px;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.3s;
+}
+.class3 > p:hover {
+    background-color: black;
+    color: white;
+}
+.class4 > img {
+    height: 700px;
+    width: 100%;
+}
+.class4 {
+    position: relative;
+    margin-bottom: 150px;
+}
+.class4 > div {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+}
+.class4 > div > h1 {
+    font-size: 50px;
+    font-family: cursive;   
+}
+.class4 > div > p {
+    border: white solid 3px;
+    width: 180px;
+    height: 70px;
+    padding: 20px;
+    margin-left: 250px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.class4 > div > p:hover {
+    background-color: white;
+    color: black;
+}
+.class5 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.class5  > div > a {
+    text-decoration: none;
+    color: black;
+}
+.class6a > img {
+    height: 350px;
+    width: 550px;
+}
+.class6b > img {
+    height: 170px;
+    width: 170px;
+    margin-left: 10px;
+}
+.class6, .class6a , .class6b {
+    display: flex;
+    box-sizing: border-box;
+}
+.class6 {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.class6b {
+    flex-wrap: wrap;
+    margin-left: 20px;
+    row-gap: 7px;
+}
+.class7 {
+    background-image: url('https://wallpapers.com/images/hd/3440-x-1440-4k-9988ua269mjckv8e.jpg');
+    margin: 50px;
+    height: 400px;
+}
+.class7 > .center {
+    text-align: center;
+    padding-top: 120px;  
+}
+.class7 > .footer {
+    padding-left: 100px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.class7 > .footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+.class7 > .center > input {
+    height: 50px;
+    width: 300px;
+}
+.class7 > .footer > .right > a {
+    text-decoration: none;
+    color: white;
+    column-gap: 10px;
+    margin-left: 10px;
+}
